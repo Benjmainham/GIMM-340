@@ -314,5 +314,5 @@ app.put('/magic/update/:id', upload.none(), async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Running at http://localhost:${port}`);
+    console.log(`Running at http://16.148.80.170:${port}`);
 });
